@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">   
+    <meta name="description" content="Anna's photo portfolio" />
+    <meta name="author" content="//topchoicedesign.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Anna's photo portfolio</title>
+    <script>
+    document.createElement( "picture" );
+    </script>
+    <link rel="stylesheet" href="css/combined.min.css" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Work+Sans:100,400'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script async src="js/combined.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <header class="row">
+        <div class="headline col-xs-12 col-sm-10">
+        <div class="logo col-xs-3 col-sm-3">
+            <picture>
+                <source srcset="icons/udacity_logo.svg">
+                <img class="img-responsive img-circle" src="icons/logo.png" alt="Udacity Logo">
+            </picture>
+        </div>
+        <div class="name col-xs-12 col-sm-9">
+            <h1>anna krygier</h1>
+            <p>everything front-end</p>
+        </div>
+        </div>
+    </header>
+    <section class="row">
+        <div class="sidebar col-sm-2">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>        
+            </ul>
+            <ul>
+                <li><p>orange</p></li>
+                <li><p>gray</p></li>
+                <li><p>green</p></li>        
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-10">
+            <div class="main-box">
+                        <picture>
+                            <source media="(min-width: 992px)"
+                                    sizes="80vw"
+                                    srcset="images/red_lady-600.jpg 600w, 
+                                            images/red_lady-800.jpg 800w,
+                                            images/red_lady-1000.jpg 1000w"/> 
+                            <source media="(min-width: 768px)"
+                                    sizes="70vw"
+                                    srcset="images/red_lady-600.jpg 600w, 
+                                            images/red_lady-800.jpg 800w,
+                                            images/red_lady-1000.jpg 1000w"/> 
+                            <img src="images/red_lady-600.jpg" 
+                                 class="img-responsive" alt="lady in a red dress" 
+                                 sizes="80vw" 
+                                 srcset="images/red_lady-350.jpg 350w, 
+                                        images/red_lady-600.jpg 600w"/>
+                        </picture>
+            </div>
+        <div class="featured-box col-sm-12">
+            <h2>featured work</h2>
+            <figure class="col-xs-12 col-sm-4">
+                <div class="featured-photo">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                    sizes="25vw"
+                                    srcset="images/moon-350.png 350w, 
+                                            images/moon-600.png 600w"/> 
+                            <img src="images/moon-600.png" 
+                                 class="img-responsive" alt="moon" 
+                                 sizes="100vw" 
+                                 srcset="images/moon-350.png 350w,
+                                         images/moon-600.png 600w"/>
+                        </picture>
+                </div>
+                        <figcaption><h3>moon</h3></figcaption>
+            </figure>
+            <figure class="col-xs-12 col-sm-4">
+                <div class="featured-photo">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                    sizes="25vw"
+                                    srcset="images/palms-350.jpg 350w, 
+                                            images/palms-600.jpg 600w"/> 
+                            <img src="images/palms-600.jpg" 
+                                 class="img-responsive" alt="sunset" 
+                                 sizes="100vw" 
+                                 srcset="images/palms-350.jpg 350w,
+                                         images/palms-600.jpg 600w"/>
+                        </picture>
+                </div>
+                        <figcaption><h3>sunset</h3></figcaption>
+            </figure>
+            <figure class="col-xs-12 col-sm-4">
+                <div class="featured-photo">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                    sizes="25vw"
+                                    srcset="images/tree-350.jpg 350w, 
+                                            images/tree-600.jpg 600w"/> 
+                            <img src="images/tree-600.jpg" 
+                                 class="img-responsive" alt="path" 
+                                 sizes="100vw" 
+                                 srcset="images/tree-350.jpg 350w,
+                                         images/tree-600.jpg 600w"/>
+                        </picture>
+                </div>
+                        <figcaption><h3>path</h3></figcaption>
+            </figure>
+        </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
+    </div>
+</body>
+</html>
